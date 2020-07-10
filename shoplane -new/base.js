@@ -9,4 +9,11 @@ $(document).ready(function() {
     }
 
     $('#cart-count').html(totalCount); 
+    
+    $('#ham-item').bind("click" , ()=>{
+       
+        $("#overlay").css("transform","translateX(100%)") ? $("#overlay").css("transform", "translateX(0%)") :$("#overlay").css("transform", "translateX(100%)") ;     
+        console.log($("#overlay").css("transform")) ; 
+        $('#black-overlay').css('display')=="none" ? $('#black-overlay').css('display','block') : $('#black-overlay').css('display','none') ; 
+    }) ;
 })
