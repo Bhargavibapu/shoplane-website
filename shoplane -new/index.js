@@ -35,11 +35,7 @@ $(document).ready(function(){
       var productPrice = document.createElement('p');
       var productPriceText = document.createTextNode('Rs ' + obj.price);
       productPrice.appendChild(productPriceText);
-    //   var addcartbtn = document.createElement("button") ; 
-    //   addcartbtn.classList.add("add-cart-btn") ; 
-    //   addcartbtn.innerText="Add to Cart"; 
-    //   productPrice.classList.add("price-wrapper") ; 
-    //   productPrice.appendChild(addcartbtn) ;
+ 
       innerDiv.appendChild(productName);
       innerDiv.appendChild(productBrand);
       innerDiv.appendChild(productPrice);
