@@ -42,8 +42,6 @@ $(document).ready(function() {
         productList = productList === null || productList === '' ? [] : productList;
         productList = productList.length > 0 ? JSON.parse(productList) : [];
 
-        // productList.push(currentObj);
-        // window.localStorage.setItem('product-list', JSON.stringify(productList));
         console.log(productList);
 
         var foundAtPos = -1;
